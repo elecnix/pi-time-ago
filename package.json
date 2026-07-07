@@ -1,0 +1,40 @@
+{
+  "name": "pi-time-ago",
+  "version": "1.0.0",
+  "description": "Pi extension showing time since last agent response in the footer — helps you see if your agent is stuck",
+  "author": "Nicolas Marchildon",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elecnix/pi-time-ago.git"
+  },
+  "homepage": "https://github.com/elecnix/pi-time-ago#readme",
+  "bugs": {
+    "url": "https://github.com/elecnix/pi-time-ago/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "pi-extension",
+    "timestamp",
+    "footer",
+    "status"
+  ],
+  "files": [
+    "extensions/",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    }
+  }
+}
